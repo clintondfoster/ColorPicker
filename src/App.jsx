@@ -8,8 +8,6 @@ const Color = ({color, setSelectedColor, selectedColor}) => {
   )
 }
 
-// if {setSelectedColor} === {color} ? selectedBorder : {color}
-
 
 const App = () => {
   const [selectedColor, setSelectedColor] = useState("");
